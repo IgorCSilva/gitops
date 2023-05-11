@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: goserver
-        image: gitopsfc
+        image: goserver
         ports:
         - containerPort: 8080
