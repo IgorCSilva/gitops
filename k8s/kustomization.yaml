@@ -8,4 +8,4 @@ resources:
 images:
 - name: goserver
   newName: igoru23/gitopsfc
-  newTag: 6b201dfdfb4908c398d5b1ae8380eed1d2eff0ac
+  newTag: c97b699a5565646c58074526de643405f6d0f1d4
