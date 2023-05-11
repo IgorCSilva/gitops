@@ -34,7 +34,7 @@ jobs:
       
       # Alterando atributo newTag do kustomization.yaml
       run: |
-        cd k8s/base
+        cd k8s
         kustomize edit set image goserver=$DOCKER_USERNAME/gitopsfc:$GITHUB_SHA
 
     # Realizando o commit.
